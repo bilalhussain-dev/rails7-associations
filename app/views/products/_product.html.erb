@@ -1,0 +1,9 @@
+<div id="<%= dom_id product %>" class="card p-5">
+  <span class="text-success"><%= product.category.name %></span>
+  <h1 class="h1"><a href="<%= product_path(product) %>"><%= product.title %></a> </h1>
+  <p><%= product.detail %></p>
+  <p>$<%= product.price %></p>
+
+
+
+</div>
